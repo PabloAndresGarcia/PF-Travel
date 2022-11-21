@@ -13,6 +13,9 @@ $navbar-dark-color: peru;
     border-color: $light;
     }
 
-h1{
-    text-align: center;
-}
+
+    @include media-breakpoint-up(md){
+        header{
+            height: 400px;
+        }
+    }
