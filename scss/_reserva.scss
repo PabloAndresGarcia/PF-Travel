@@ -1,0 +1,10 @@
+@import "colores";
+@import "fuentes";
+@import "mixins";
+
+
+#pagReserva{
+    min-height: 100vh;
+    background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url(../Img/Fondo\ reserva.jpg) no-repeat center center fixed;
+    background-size: cover; 
+}
