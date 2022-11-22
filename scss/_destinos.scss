@@ -1,0 +1,19 @@
+@import "colores";
+@import "fuentes";
+@import "mixins";
+
+.carousel-inner{
+    h5{
+        color: rgb(0, 132, 255);
+        font-size: 5em;
+    }
+    h4{
+        color: rgb(0, 132, 255);
+        font-size: 5em;
+    }
+    p{
+        color: rgb(0, 0, 0);
+        font-size: 1.2em;
+        
+    }
+}

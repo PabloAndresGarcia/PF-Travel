@@ -10838,18 +10838,25 @@ a {
   margin-bottom: 0;
 }
 
-#pagprincipal {
-  min-height: 100vh;
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/home2.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
 .bg-rosa {
   background-image: linear-gradient(to right, #f9abff, #f9abff, #ffd9ff, #ffd9ff, white);
 }
 
 .bg-gradiente {
   background-image: linear-gradient(to top, #ffd9ff, #ffd9ff, #f9abff, black);
+}
+
+.carousel-inner h5, .carousel-inner .h5 {
+  color: rgb(0, 132, 255);
+  font-size: 5em;
+}
+.carousel-inner h4, .carousel-inner .h4 {
+  color: rgb(0, 132, 255);
+  font-size: 5em;
+}
+.carousel-inner p {
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
 }
 
 /*# sourceMappingURL=custom.css.map */
