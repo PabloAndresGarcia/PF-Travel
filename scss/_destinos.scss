@@ -8,11 +8,13 @@
         color: rgb(0, 1, 2);
         font-size: 5em;
         padding-bottom: 1em;
+        font-family: $fuente-principal;
     }
     p{
         color: rgb(0, 0, 0);
         font-size: 1.2em;
         padding-bottom: 25em;
+        font-family: $fuente-principal;
         
     }
 }
@@ -24,4 +26,5 @@
     margin-top: 0em;
     padding-bottom: 2.5em;
     padding-top: 2.5em;  
+    font-family: $fuente-principal;
 }

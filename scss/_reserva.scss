@@ -9,6 +9,7 @@
     margin-top: 0em;
     padding-bottom: 2.5em;
     padding-top: 2.5em;  
+    font-family: $fuente-principal;
 }
 #pagReserva{
     min-height: 100vh;
@@ -16,6 +17,7 @@
     background-size: cover; 
     p {
         color: white;
+        font-family: $fuente-principal;
     }
     h3{
         text-align: center;
@@ -23,5 +25,6 @@
         padding-top: 1em;
         color: rgb(255, 255, 255);
         padding-bottom: 1em;
+        font-family: $fuente-principal;
     }
 }

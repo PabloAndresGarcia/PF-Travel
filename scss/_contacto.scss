@@ -2,16 +2,6 @@
 @import "fuentes";
 @import "mixins";
 
-
-.footerContacto{
-    background-color: black;
-    text-align: center;
-    color: rgb(122, 122, 122);
-    margin-top: 0em;
-    padding-bottom: 2.5em;
-    padding-top: 2.5em;
-}
-
 #pagContacto{
     min-height: 100vh;
     background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url(../img/Contact.jpg) no-repeat center center fixed;
@@ -23,6 +13,7 @@
         padding-top: 1em;
         color: rgb(255, 255, 255);
         padding-bottom: 1em;
+        font-family: $fuente-principal;
         
     }
     }
@@ -30,6 +21,17 @@
         color: rgb(0, 0, 0);
         font-size: 1.2em;
         padding-bottom: 25em;
+        font-family: $fuente-principal;
         
     }
+.footerContacto{
+    background-color: black;
+    text-align: center;
+    color: rgb(122, 122, 122);
+    margin-top: 0em;
+    padding-bottom: 2.5em;
+    padding-top: 2.5em;
+}
+
+
     

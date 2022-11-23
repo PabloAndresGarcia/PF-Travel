@@ -10801,29 +10801,6 @@ a {
   padding: 20px 60px;
 }
 
-.subtitulo h2, .subtitulo .h2 {
-  padding: 50px;
-  font-weight: 700;
-  text-align: center;
-  font-style: italic;
-  font-family: "Sansita Swashed", cursive;
-  font-size: 50px;
-  height: auto;
-  width: auto;
-  background: #41351c;
-  border-top: #1cf100 5px outset;
-  border-bottom: #1cf100 5px outset;
-  margin-bottom: 0;
-}
-
-.bg-rosa {
-  background-image: linear-gradient(to right, #f9abff, #f9abff, #ffd9ff, #ffd9ff, white);
-}
-
-.bg-gradiente {
-  background-image: linear-gradient(to top, #ffd9ff, #ffd9ff, #f9abff, black);
-}
-
 #pagprincipal {
   min-height: 100vh;
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/home2.jpg) no-repeat center center fixed;
@@ -10842,6 +10819,7 @@ a {
   margin-top: 0em;
   padding-bottom: 2.5em;
   padding-top: 2.5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .boton--index {
@@ -10859,11 +10837,13 @@ a {
   color: rgb(0, 1, 2);
   font-size: 5em;
   padding-bottom: 1em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .carousel-inner p {
   color: rgb(0, 0, 0);
   font-size: 1.2em;
   padding-bottom: 25em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .footerDestino {
@@ -10873,6 +10853,7 @@ a {
   margin-top: 0em;
   padding-bottom: 2.5em;
   padding-top: 2.5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .footerReserva {
@@ -10882,6 +10863,7 @@ a {
   margin-top: 0em;
   padding-bottom: 2.5em;
   padding-top: 2.5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #pagReserva {
@@ -10891,6 +10873,7 @@ a {
 }
 #pagReserva p {
   color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 #pagReserva h3, #pagReserva .h3 {
   text-align: center;
@@ -10898,15 +10881,7 @@ a {
   padding-top: 1em;
   color: rgb(255, 255, 255);
   padding-bottom: 1em;
-}
-
-.footerContacto {
-  background-color: black;
-  text-align: center;
-  color: rgb(122, 122, 122);
-  margin-top: 0em;
-  padding-bottom: 2.5em;
-  padding-top: 2.5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #pagContacto {
@@ -10921,12 +10896,23 @@ a {
   padding-top: 1em;
   color: rgb(255, 255, 255);
   padding-bottom: 1em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 p {
   color: rgb(0, 0, 0);
   font-size: 1.2em;
   padding-bottom: 25em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.footerContacto {
+  background-color: black;
+  text-align: center;
+  color: rgb(122, 122, 122);
+  margin-top: 0em;
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
 }
 
 /*# sourceMappingURL=custom.css.map */
