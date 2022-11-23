@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "sass --watch scss:css"
-  },
+    "compile": "sass --watch scss:css" 
+      },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PabloAndresGarcia/PF-Travel.git"
