@@ -4,15 +4,15 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-@import "_index";
+@import "_mixins";
 
 @import "_fuentes";
 
 @import "_colores";
 
-@import "_mixins";
-
 @import "_global";
+
+@import "_index";
 
 @import "_destinos";
 

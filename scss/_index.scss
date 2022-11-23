@@ -12,7 +12,14 @@
     background-color: $dark;
     border-color: $light;
     }
-
+.footerIndex{
+    background-color: black;
+    text-align: center;
+    color: rgb(122, 122, 122);
+    margin-top: 0em;
+    padding-bottom: 2.5em;
+    padding-top: 2.5em;  
+}
     .boton--index{
         @extend .boton;
         font-size: 20px;

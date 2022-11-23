@@ -2,9 +2,24 @@
 @import "fuentes";
 @import "mixins";
 
-
+.footerReserva{
+    background-color: black;
+    text-align: center;
+    color: rgb(122, 122, 122);
+    margin-top: 0em;
+    padding-bottom: 2.5em;
+    padding-top: 2.5em;  
+}
 #pagReserva{
     min-height: 100vh;
-    background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url(../Img/Fondo\ reserva.jpg) no-repeat center center fixed;
+    background: url(../img/Fondo\ reserva.jpg) no-repeat center center fixed;
     background-size: cover; 
+    p {
+        color: white;
+    }
+    h3{
+        text-align: center;
+        padding-top: 2em;
+        color: white;
+    }
 }

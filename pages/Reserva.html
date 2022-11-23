@@ -38,9 +38,10 @@
             </div>
           </nav>
     </header>
-    <main>
-        <section id="pagReserva">
-            <h3 class="text-center pt-5">Reserva</h3>
+    <main id="pagReserva">
+        
+            <h3>Reserva</h3>
+           
             <div class="row align-items-end pt-5">
                 <div class="col-12 col-md-2"></div>
                 <div class="col-12 col-md-8">
@@ -52,19 +53,18 @@
                           <div class="col-md-6">
                             <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
                           </div>
-
-                        <div class="col-md-6">
+                          <div class="col-md-6">
                           <label for="inputEmail4" class="form-label"></label>
                           <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                         </div>
                         <div class="col-md-6">
                           <label for="inputPassword4" class="form-label"></label>
-                          <input type="password" class="form-control" id="inputPassword4" placeholder="Dirección">
+                          <input type="adress" class="form-control" id="inputPassword4" placeholder="Dirección">
                         </div>
                        
                         <div class="col-md-6">
                           <label for="inputCity" class="form-label"></label>
-                          <input type="text" class="form-control" id="inputCity" placeholder="Ciudad">
+                          <input type="city" class="form-control" id="inputCity" placeholder="Ciudad">
                         </div>
                         <div class="col-md-4">
                           <label for="inputState" class="form-label"></label>
@@ -134,7 +134,7 @@
 <option value="AE">Emiratos Árabes Unidos</option>
 <option value="ER">Eritrea</option>
 <option value="SI">Eslovenia</option>
-<option value="ES" selected>España</option>
+<option value="ES">España</option>
 <option value="US">Estados Unidos</option>
 <option value="EE">Estonia</option>
 <option value="ET">Etiopía</option>
@@ -306,28 +306,39 @@
 <option value="ZW">Zimbabue</option>
                           </select>
                         </div>
+                        <div class="col-md-6 ">
+                          <div class="input-group pt-4">
+                            <label class="input-group-text" for="inputGroupSelect01">Destinos</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                              <option selected>Elegir...</option>
+                              <option value="1">Patagonia</option>
+                              <option value="2">Norte Argentino</option>
+                              <option value="3">Caribe</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputWeek" class="form-label"></label>
+                          <input type="week" class="form-control" id="inputWeek" placeholder="Semana a elegir">
+                        </div>
                         <div class="col-12">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="gridCheck">
                             <label class="form-check-label" for="gridCheck">
-                              Soy mayor
+                              <p>Soy mayor</p>
                             </label>
                           </div>
                         </div>
                         <div class="col-12">
-                          <button type="submit" class="btn btn-primary">Sign in</button>
+                          <button type="submit" class="btn btn-primary">Confirmar</button>
                         </div>
                       </form>
-
-
                 <div class="col-12 col-md-2"></div>
+              </div>
             
-
-
-        </section>
     </main>
-    <footer class="text-center my-5">
-        Lorem ipsum dolor sit amet.
+    <footer class="footerReserva">
+        Lorem ipsum dolor sit amet
     </footer>
     <script src="../js/bootstrap.js"></script>
 </body>

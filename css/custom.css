@@ -10772,28 +10772,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#pagprincipal {
-  min-height: 100vh;
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/home2.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
-.nav-form-control {
-  background-color: rgb(14, 13, 13);
-  border-color: #f8f9fa;
-}
-
-.boton--index {
-  font-size: 20px;
-  padding: 20px 50px;
-  transition: all 0.5s;
-}
-.boton--index:hover {
-  background: #1cf100;
-  box-shadow: 6px 13px 30px #0d010b;
-  padding: 25px 70px;
-}
-
 html {
   background: rgba(252, 252, 252, 0);
 }
@@ -10806,7 +10784,7 @@ a {
   width: 140px;
   height: 60px;
   background-color: hwb(113 28% 20%);
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -10846,6 +10824,37 @@ a {
   background-image: linear-gradient(to top, #ffd9ff, #ffd9ff, #f9abff, black);
 }
 
+#pagprincipal {
+  min-height: 100vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/home2.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.nav-form-control {
+  background-color: rgb(14, 13, 13);
+  border-color: #f8f9fa;
+}
+
+.footerIndex {
+  background-color: black;
+  text-align: center;
+  color: rgb(122, 122, 122);
+  margin-top: 0em;
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
+}
+
+.boton--index {
+  font-size: 20px;
+  padding: 20px 50px;
+  transition: all 0.5s;
+}
+.boton--index:hover {
+  background: #1cf100;
+  box-shadow: 6px 13px 30px #0d010b;
+  padding: 25px 70px;
+}
+
 .carousel-inner h5, .carousel-inner .h5 {
   color: rgb(0, 132, 255);
   font-size: 5em;
@@ -10857,6 +10866,40 @@ a {
 .carousel-inner p {
   color: rgb(0, 0, 0);
   font-size: 1.2em;
+  background-color: rgba(255, 255, 255, 0.486);
+  background-size: cover;
+}
+
+.footerDestino {
+  background-color: black;
+  text-align: center;
+  color: rgb(122, 122, 122);
+  margin-top: 0em;
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
+}
+
+.footerReserva {
+  background-color: black;
+  text-align: center;
+  color: rgb(122, 122, 122);
+  margin-top: 0em;
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
+}
+
+#pagReserva {
+  min-height: 100vh;
+  background: url(../img/Fondo\ reserva.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+#pagReserva p {
+  color: white;
+}
+#pagReserva h3, #pagReserva .h3 {
+  text-align: center;
+  padding-top: 2em;
+  color: white;
 }
 
 /*# sourceMappingURL=custom.css.map */
