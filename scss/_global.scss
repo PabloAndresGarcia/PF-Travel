@@ -32,30 +32,3 @@ a{
     }
 }
 
-.subtitulo{
-
-    h2{
-        padding: 50px;
-        font-weight: map-get($grosorfuente, grueso);
-        text-align: center;
-        font-style: italic;
-        font-family: $fuente-secundaria;
-        font-size: 50px;
-        height: auto;                                                   
-        width: auto;
-        background: $color-terciario;
-        border-top: $color-secundario 5px outset;
-        border-bottom: $color-secundario 5px outset;
-        margin-bottom: 0;
-    }
-}
-
-
-.bg-rosa{
-    background-image: linear-gradient(to right,#f9abff, #f9abff,#ffd9ff ,#ffd9ff,white)
-}
-
-.bg-gradiente{
-   
-    background-image: linear-gradient(to top,#ffd9ff,#ffd9ff, #f9abff, black );
-}
