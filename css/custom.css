@@ -10803,7 +10803,7 @@ a {
 
 #pagprincipal {
   min-height: 100vh;
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/home2.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("../img/home2.jpg?1") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -10868,7 +10868,7 @@ a {
 
 #pagReserva {
   min-height: 100vh;
-  background: url(../img/Fondo\ reserva.jpg) no-repeat center center fixed;
+  background: url("../img/Fondo reserva.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 #pagReserva p {
@@ -10886,7 +10886,7 @@ a {
 
 #pagContacto {
   min-height: 100vh;
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/Contact.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("../img/Contact.jpg") no-repeat center center fixed;
   background-size: cover;
   padding-bottom: 2em;
 }
