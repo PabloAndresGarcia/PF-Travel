@@ -3,19 +3,16 @@
 @import "mixins";
 
 .carousel-inner{
-    h5{
-        color: rgb(0, 132, 255);
-        font-size: 5em;
-    }
+    
     h4{
-        color: rgb(0, 132, 255);
+        color: rgb(0, 1, 2);
         font-size: 5em;
+        padding-bottom: 1em;
     }
     p{
         color: rgb(0, 0, 0);
         font-size: 1.2em;
-        background-color: rgba(255, 255, 255, 0.486);
-        background-size: cover;
+        padding-bottom: 25em;
         
     }
 }

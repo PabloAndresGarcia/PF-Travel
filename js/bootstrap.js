@@ -900,6 +900,51 @@
       instance[method]();
     });
   };
+  const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+  const alert = (message, type) => {
+    const wrapper = document.createElement('div')
+    wrapper.innerHTML = [
+      `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+      `   <div>${message}</div>`,
+      '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+      '</div>'
+    ].join('')
+  
+    alertPlaceholder.append(wrapper)
+  }
+   
+  const alertTrigger = document.getElementById('liveAlertBtn')
+  if (alertTrigger) {
+    alertTrigger.addEventListener('click', () => {
+      alert('Se ha enviado el mensaje correctamente', 'success')
+    })
+  }
+  
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+const alertPlaceholder2 = document.getElementById('liveAlertPlaceholder2')
+
+const alert2 = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert2">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert2" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder2.append(wrapper)
+}
+
+const alertTrigger2 = document.getElementById('liveAlertBtn2')
+if (alertTrigger2) {
+  alertTrigger2.addEventListener('click', () => {
+    alert2('Tu reserva ha sido correctamente procesada!', 'success')
+  })
+}
+
+
 
   /**
    * --------------------------------------------------------------------------

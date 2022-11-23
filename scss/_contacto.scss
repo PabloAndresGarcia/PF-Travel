@@ -2,26 +2,34 @@
 @import "fuentes";
 @import "mixins";
 
-.footerReserva{
+
+.footerContacto{
     background-color: black;
     text-align: center;
     color: rgb(122, 122, 122);
     margin-top: 0em;
     padding-bottom: 2.5em;
-    padding-top: 2.5em;  
+    padding-top: 2.5em;
 }
-#pagReserva{
+
+#pagContacto{
     min-height: 100vh;
-    background: url(../img/Fondo\ reserva.jpg) no-repeat center center fixed;
+    background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url(../img/Contact.jpg) no-repeat center center fixed;
     background-size: cover; 
-    p {
-        color: white;
-    }
+    padding-bottom: 2em;
     h3{
         text-align: center;
         font-size: 3em;
         padding-top: 1em;
         color: rgb(255, 255, 255);
         padding-bottom: 1em;
+        
     }
-}
+    }
+    p{
+        color: rgb(0, 0, 0);
+        font-size: 1.2em;
+        padding-bottom: 25em;
+        
+    }
+    
