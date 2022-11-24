@@ -10833,17 +10833,19 @@ a {
   padding: 25px 70px;
 }
 
-.carousel-inner h4, .carousel-inner .h4 {
-  color: rgb(0, 1, 2);
-  font-size: 5em;
-  padding-bottom: 1em;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+#pagdestino {
+  min-height: 100vh;
+  background: url("../img/destino.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
-.carousel-inner p {
-  color: rgb(0, 0, 0);
-  font-size: 1.2em;
-  padding-bottom: 25em;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+.card {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  caption-side: bottom;
+}
+.card .card-text {
+  padding-bottom: 1em;
 }
 
 .footerDestino {
